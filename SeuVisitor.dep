@@ -1,0 +1,1359 @@
+# Microsoft Developer Studio Generated Dependency File, included by SeuVisitor.mak
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\Building.cpp : \
+	".\Building.h"\
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\Building.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\Building.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\GAMECORE\CORE_Graphics.cpp : \
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	{$(INCLUDE)}"rmxfguid.h"\
+	{$(INCLUDE)}"rmxftmpl.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\GAMECORE\CORE_Graphics.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	{$(INCLUDE)}"rmxfguid.h"\
+	{$(INCLUDE)}"rmxftmpl.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\GAMECORE\CORE_INPUT.CPP : \
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\GAMECORE\CORE_INPUT.CPP : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\GAMECORE\CORE_SOUND.CPP : \
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\GAMECORE\CORE_SOUND.CPP : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\GAMECORE\CORE_SYSTEM.CPP : \
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\GAMECORE\CORE_SYSTEM.CPP : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\Document.cpp : \
+	".\Building.h"\
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Document.h"\
+	".\GameRole.h"\
+	".\Map.h"\
+	".\NPC.H"\
+	".\Script.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\Document.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\Building.h"\
+	".\Document.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\GameRole.h"\
+	".\Map.h"\
+	".\NPC.H"\
+	".\Script.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\GameRole.cpp : \
+	".\Building.h"\
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Document.h"\
+	".\GameRole.h"\
+	".\HuaRongDao.h"\
+	".\Lock.h"\
+	".\Map.h"\
+	".\NPC.H"\
+	".\Script.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferBall.h"\
+	".\TransferBlock.h"\
+	".\TransferChair.h"\
+	".\WinMain.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\GameRole.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\Building.h"\
+	".\Document.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\GameRole.h"\
+	".\HuaRongDao.h"\
+	".\Lock.h"\
+	".\Map.h"\
+	".\NPC.H"\
+	".\Script.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferBall.h"\
+	".\TransferBlock.h"\
+	".\TransferChair.h"\
+	".\WinMain.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\HuaRongDao.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\HuaRongDao.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\HuaRongDao.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\HuaRongDao.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\Lock.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Lock.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\Lock.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\Lock.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\Map.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Map.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\Map.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\Map.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\NPC.CPP : \
+	".\Building.h"\
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\NPC.H"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\NPC.CPP : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\Building.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\NPC.H"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\Script.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Script.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\Script.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\Script.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\Tile.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\Tile.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\Tile.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\TransferBall.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferBall.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\TransferBall.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferBall.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\TransferBlock.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferBlock.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\TransferBlock.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferBlock.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\TransferChair.cpp : \
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferChair.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\TransferChair.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\TransferChair.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+
+!IF  "$(CFG)" == "SeuVisitor - Win32 Release"
+
+.\WinMain.cpp : \
+	".\Building.h"\
+	".\Core_Global.h"\
+	".\Core_Graphics.h"\
+	".\Core_Input.h"\
+	".\Core_Sound.h"\
+	".\Core_System.h"\
+	".\Document.h"\
+	".\GameRole.h"\
+	".\Map.h"\
+	".\NPC.H"\
+	".\Script.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\WinMain.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ELSEIF  "$(CFG)" == "SeuVisitor - Win32 Debug"
+
+.\WinMain.cpp : \
+	"..\..\..\dx9b\include\basetsd.h"\
+	".\Building.h"\
+	".\Document.h"\
+	".\GAMECORE\CORE_GLOBAL.H"\
+	".\GAMECORE\CORE_GRAPHICS.H"\
+	".\GAMECORE\CORE_INPUT.H"\
+	".\GAMECORE\CORE_SOUND.H"\
+	".\GAMECORE\CORE_SYSTEM.H"\
+	".\GameRole.h"\
+	".\Map.h"\
+	".\NPC.H"\
+	".\Script.h"\
+	".\SmallGame.h"\
+	".\Tile.h"\
+	".\WinMain.h"\
+	{$(INCLUDE)}"audevcod.h"\
+	{$(INCLUDE)}"d3d9.h"\
+	{$(INCLUDE)}"d3d9caps.h"\
+	{$(INCLUDE)}"d3d9types.h"\
+	{$(INCLUDE)}"d3dx9.h"\
+	{$(INCLUDE)}"d3dx9anim.h"\
+	{$(INCLUDE)}"d3dx9core.h"\
+	{$(INCLUDE)}"d3dx9effect.h"\
+	{$(INCLUDE)}"d3dx9math.h"\
+	{$(INCLUDE)}"d3dx9math.inl"\
+	{$(INCLUDE)}"d3dx9mesh.h"\
+	{$(INCLUDE)}"d3dx9shader.h"\
+	{$(INCLUDE)}"d3dx9shape.h"\
+	{$(INCLUDE)}"d3dx9tex.h"\
+	{$(INCLUDE)}"dls1.h"\
+	{$(INCLUDE)}"dmdls.h"\
+	{$(INCLUDE)}"dmerror.h"\
+	{$(INCLUDE)}"dmplugin.h"\
+	{$(INCLUDE)}"dmusbuff.h"\
+	{$(INCLUDE)}"dmusicc.h"\
+	{$(INCLUDE)}"dmusici.h"\
+	{$(INCLUDE)}"dpaddr.h"\
+	{$(INCLUDE)}"dplay8.h"\
+	{$(INCLUDE)}"dshow.h"\
+	{$(INCLUDE)}"dxfile.h"\
+	
+
+!ENDIF 
+

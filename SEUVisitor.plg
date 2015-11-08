@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SeuVisitor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\Users\¸©î«·ç¾°\AppData\Local\Temp\RSPCDBA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\GameCore" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/SeuVisitor.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ Fd"Debug/" /c 
+"D:\My DBank\SEUVisitor\GameRole.cpp"
+]
+Creating command line "cl.exe @"E:\Users\¸©î«·ç¾°\AppData\Local\Temp\RSPCDBA.tmp"" 
+Creating temporary file "E:\Users\¸©î«·ç¾°\AppData\Local\Temp\RSPCDBB.tmp" with contents
+[
+strmiids.lib d3d9.lib d3dx9.lib d3dxof.lib dxguid.lib dinput8.lib dsound.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /pdb:none /machine:I386 /out:"Debug/SeuVisitor.exe" 
+".\Debug\Building.obj"
+".\Debug\CORE_GRAPHICS.OBJ"
+".\Debug\CORE_INPUT.OBJ"
+".\Debug\CORE_SOUND.OBJ"
+".\Debug\CORE_SYSTEM.OBJ"
+".\Debug\Document.obj"
+".\Debug\GameRole.obj"
+".\Debug\HuaRongDao.obj"
+".\Debug\Lock.obj"
+".\Debug\Map.obj"
+".\Debug\NPC.OBJ"
+".\Debug\Script.obj"
+".\Debug\Tile.obj"
+".\Debug\TransferBall.obj"
+".\Debug\TransferBlock.obj"
+".\Debug\TransferChair.obj"
+".\Debug\WinMain.obj"
+".\Debug\Script1.res"
+]
+Creating command line "link.exe @"E:\Users\¸©î«·ç¾°\AppData\Local\Temp\RSPCDBB.tmp""
+<h3>Output Window</h3>
+Compiling...
+Command line warning D4024 : unrecognized source file type 'FdDebug/', object file assumed
+Command line warning D4027 : source file 'FdDebug/' ignored
+GameRole.cpp
+Linking...
+LINK : warning LNK4089: all references to "d3dxof.dll" discarded by /OPT:REF
+Creating temporary file "E:\Users\¸©î«·ç¾°\AppData\Local\Temp\RSPD2EA.tmp" with contents
+[
+/nologo /o"Debug/SeuVisitor.bsc" 
+".\Debug\Building.sbr"
+".\Debug\CORE_GRAPHICS.SBR"
+".\Debug\CORE_INPUT.SBR"
+".\Debug\CORE_SOUND.SBR"
+".\Debug\CORE_SYSTEM.SBR"
+".\Debug\Document.sbr"
+".\Debug\GameRole.sbr"
+".\Debug\HuaRongDao.sbr"
+".\Debug\Lock.sbr"
+".\Debug\Map.sbr"
+".\Debug\NPC.SBR"
+".\Debug\Script.sbr"
+".\Debug\Tile.sbr"
+".\Debug\TransferBall.sbr"
+".\Debug\TransferBlock.sbr"
+".\Debug\TransferChair.sbr"
+".\Debug\WinMain.sbr"]
+Creating command line "bscmake.exe @"E:\Users\¸©î«·ç¾°\AppData\Local\Temp\RSPD2EA.tmp""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SeuVisitor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
